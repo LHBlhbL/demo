@@ -1,0 +1,17 @@
+l:
+  blog:
+    name: L
+    title: Spring Boot
+
+
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ask
+    username: root
+    password: root
+
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
