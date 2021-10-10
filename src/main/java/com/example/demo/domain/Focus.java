@@ -1,6 +1,7 @@
 package com.example.demo.domain;
 
 
+
 public class Focus {
     private int id;
     private int goods_id;

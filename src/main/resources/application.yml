@@ -1,17 +1,28 @@
+
+#spring:
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/ask
+#    username: root
+#    password: root
+
+#  thymeleaf:
+#    prefix: classpath:/templates/
+#    suffix: .html
+#  mvc:
+#    static-path-pattern: /static/**
 l:
   blog:
     name: L
-    title: Spring Boot
-
-
-
-
+    title: HB
 spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+  mvc:
+    static-path-pattern: /static/**
   datasource:
     url: jdbc:mysql://localhost:3306/ask
     username: root
     password: root
-
-
 mybatis:
   mapper-locations: classpath:mapper/*.xml
