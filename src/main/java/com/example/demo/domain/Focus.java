@@ -18,4 +18,13 @@ public class Focus {
     public int getUser_id() {
         return user_id;
     }
+
+    @Override
+    public String toString() {
+        return "Focus{" +
+                "id=" + id +
+                ", goods_id=" + goods_id +
+                ", user_id=" + user_id +
+                '}';
+    }
 }
