@@ -21,8 +21,14 @@ spring:
   mvc:
     static-path-pattern: /static/**
   datasource:
-    url: jdbc:mysql://localhost:3306/ask
+    url: jdbc:mysql://207.246.85.3:3306/demo
     username: root
     password: root
+  redis:
+    host: 207.246.85.3
+    port: 6379
+    jedis:
+      pool:
+        max-active: 8
 mybatis:
   mapper-locations: classpath:mapper/*.xml
